@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\THEODORE VON JOSHUA\OneDrive\Desktop\ComProg Finals\TextRPG\system.h(401): warning C4715: 'NestedInput': not all control paths return a value
+  TextRPG.vcxproj -> C:\Users\THEODORE VON JOSHUA\OneDrive\Desktop\ComProg Finals\Debug\TextRPG.exe
