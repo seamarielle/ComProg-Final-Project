@@ -86,6 +86,14 @@ By integrating these features and CRUD operations, the Text-Based RPG Project of
 
 Welcome to the Text-Based RPG! This guide will help you navigate the game, utilize its features, and make the most of your adventure. Follow these instructions to get started and enjoy your journey! 🌟
 
+#### Game Controls
+Movement:
+
+W: Move Up
+A: Move Left
+S: Move Down
+D: Move Right
+
 #### Getting Started 🚀
 
 1. Clone the Repository: To begin, you need to clone the project repository from GitHub. Open your terminal or command prompt and run the following command:
