@@ -6,7 +6,7 @@ https://github.com/user-attachments/assets/ff66032b-03c3-4ad4-9513-21e1475407b7
 ## Introduction 
 Welcome to the Text-Based RPG Project! This project is a role-playing game developed in C++ that leverages the principles of CRUD (Create, Read, Update, Delete) operations to manage game elements dynamically.
 
-## 🔎 Key Objectives
+## 🔎 Key Objectives: CRUD Operations
 
 | No. | Objective |
 |-----|-----------|
