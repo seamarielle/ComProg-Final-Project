@@ -24,7 +24,7 @@ https://github.com/user-attachments/assets/ff66032b-03c3-4ad4-9513-21e1475407b7
 ----------------
 
 ## 📽️ Console Program Design
-![Combat Screen](https://github.com/user-attachments/assets/2c0c8567-221b-4fe2-a5bd-02bd639d11c6)
+![image](https://github.com/user-attachments/assets/7bd078fe-0486-4367-8faf-9fbb6c347144)
 
 ----------------
 
@@ -82,6 +82,51 @@ By integrating these features and CRUD operations, the Text-Based RPG Project of
 
 ------------
 
+## File Structure of Project: TextRPG
+
+**TextRPG Directory** This is the root directory of the TextRPG project, which contains all the necessary files and folders for the development and execution of the game.
+
+### .vs Directory
+The .vs directory is created by Visual Studio and contains various files related to the development environment and debugging processes.
+
+#### Debug Folder: This folder contains files generated during the debugging and build processes.
+##### TextRPG.tlog: This is a text log file that likely stores debugging information, including messages and errors encountered during the build process. It helps developers track issues and understand the build history.
+##### main.obj: This object file is generated during the compilation process and contains the compiled code for the "main" source file. It is an intermediate file that will eventually be linked to create the final executable.
+##### TextRPG.Build.CppClean.log: This log file records the cleaning of the project's build process, detailing which files were removed or cleaned up to ensure a fresh build environment.
+##### TextRPG.exe.recipe: This file contains the recipe or configuration settings for building the executable file "TextRPG.exe." It outlines the steps and parameters used during the build process.
+##### TextRPG.ilk: This is an incremental link file that helps speed up the linking process during subsequent builds. It stores information about previously linked files to optimize the build time.
+##### TextRPG.log: This log file contains detailed information about the build process, including warnings, errors, and other messages that can help developers diagnose issues.
+##### TextRPG.vcxproj.FileListAbsolute.txt: This file contains a list of absolute file paths used by the project, which helps Visual Studio manage and reference the various source files and resources.
+##### vc142.idb: This is a database file used by the Visual Studio build system to store information about the project, including debugging symbols and other metadata that aids in the debugging process.
+##### vc142.pdb: This program database file is used for debugging and contains symbol information that allows developers to debug their code more effectively by mapping machine code back to the original source code.
+
+### Output Directory
+The **output** directory contains the final compiled executable and any related output files generated during the build process.
+
+#### main.exe: This is the main executable file for the TextRPG project. It is the result of the compilation and linking processes and is the file that users will run to play the game.
+
+### Header Files
+Header files contain declarations of functions, classes, and variables that are used throughout the project. They help organize code and promote reusability.
+
+#### combat.h: This header file defines functions and data structures related to the combat mechanics of the game. It likely includes declarations for player and enemy actions, health management, and experience points.
+#### CppProperties.json: This JSON file defines settings for the project, including configuration information for the C++ compiler and IntelliSense. It specifies include paths, IntelliSense modes, and other environment settings that facilitate code editing and compilation.
+#### display.h: This header file defines functions and data structures related to displaying game information to the player. It may include functions for rendering graphics, updating the user interface, and displaying messages or notifications.
+#### itemscreen.h: This header file defines functions and data structures related to the screen that displays items in the game. It likely includes functionality for managing inventory, equipping items, and displaying item details.
+#### skillscreen.h: This header file defines functions and data structures related to the screen that displays character skills. It may include functionality for managing skill points, skill descriptions, and skill usage during gameplay.
+#### stats.h: This header file defines functions and data structures related to character statistics, such as health, strength, agility, and other attributes that affect gameplay.
+#### statscreen.h: This header file defines functions and data structures related to the screen that displays character statistics. It likely includes functionality for updating and displaying the player's current stats and any changes that occur during gameplay.
+#### system.h: This header file likely contains system-level functions and definitions that support the overall functionality of the game, such as initialization routines, game state management, and other core features.
+
+### Source Files
+Source files contain the actual implementation of the functions and logic defined in the header files.
+
+#### main.cpp: This is the main source code file for the TextRPG project. It likely contains the entry point of the program (the main function) and orchestrates the overall flow of the game, including initializing the game environment, handling user input, and managing game states.
+
+### Other Files
+These files serve various purposes within the project.
+
+#### save.txt: This text file is potentially used for saving game progress. It may store player data, game state, and other relevant information that allows players to resume their game at
+------------------
 ## ![image](https://github.com/user-attachments/assets/3354ddef-1eb9-4a39-a86e-a31660808a9a)
 
 Welcome to the Text-Based RPG! This guide will help you navigate the game, utilize its features, and make the most of your adventure. Follow these instructions to get started and enjoy your journey! 🌟
