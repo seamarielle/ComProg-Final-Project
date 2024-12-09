@@ -89,10 +89,10 @@ Welcome to the Text-Based RPG! This guide will help you navigate the game, utili
 #### Game Controls
 Movement:
 
-W: Move Up
-A: Move Left
-S: Move Down
-D: Move Right
+##### W: Move Up
+##### A: Move Left
+##### S: Move Down
+##### D: Move Right
 
 #### Getting Started 🚀
 
